@@ -1,0 +1,21 @@
+{
+  "UserName": "yeluriramya",
+  "Password": "HVP48G",
+  "Location": "New York",
+  "Hotels": "Hotel Sunshine",
+  "Room Type": "Super Deluxe",
+  "Number of Rooms": "1",
+  "Check In Date": "28/05/2023",
+  "Check Out Date": "31/05/2023",
+  "Adults per room": "2",
+  "Children per room": "0",
+  "FirstName": "RamYa",
+  "LastName": "Yeluri",
+  "BillingAddress": "Hyderabad",
+  "CreditCard": "1234567892345678",
+  "CreditCardType": "VISA",
+  "expMonth": "May",
+  "expYear": "2023",
+  "CvvNumber": "2345"
+}
+

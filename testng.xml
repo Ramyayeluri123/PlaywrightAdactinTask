@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="chrome">
+        <classes>
+            <class name="AdactinTestClass.TestClassForAdactinPage">
+                <parameter name="browserName" value="chrome"></parameter>
+                <methods>
+                    <include name="LoginPage"/>
+                    <include name="searchHotel"/>
+                    <include name="selectingHotelRooms"/>
+                    <include name="setBookingHotel"/>
+                    <include name="setBookedItinerary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="safari">
+        <classes>
+            <class name="AdactinTestClass.TestClassForAdactinPage">
+                <parameter name="browserName" value="safari"></parameter>
+                <methods>
+                    <include name="LoginPage"/>
+                    <include name="searchHotel"/>
+                    <include name="selectingHotelRooms"/>
+                    <include name="setBookingHotel"/>
+                    <include name="setBookedItinerary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="firefox">
+        <classes>
+            <class name="AdactinTestClass.TestClassForAdactinPage">
+                <parameter name="browserName" value="firefox"></parameter>
+                <methods>
+                    <include name="LoginPage"/>
+                    <include name="searchHotel"/>
+                    <include name="selectingHotelRooms"/>
+                    <include name="setBookingHotel"/>
+                    <include name="setBookedItinerary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="chromium">
+        <classes>
+            <class name="AdactinTestClass.TestClassForAdactinPage">
+                <parameter name="browserName" value="chromium"></parameter>
+                <methods>
+                    <include name="LoginPage"/>
+                    <include name="searchHotel"/>
+                    <include name="selectingHotelRooms"/>
+                    <include name="setBookingHotel"/>
+                    <include name="setBookedItinerary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
